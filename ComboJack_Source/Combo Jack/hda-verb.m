@@ -617,7 +617,7 @@ uint32_t CFPopUpMenu()
     CFOptionFlags responsecode;
     responsecode = 0;
     fprintf(stderr, "Response code before value: %lu.\n", responsecode);
-
+    return headphones();
     while(true)
     {
         //wait until user logged in
